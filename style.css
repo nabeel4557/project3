@@ -312,8 +312,8 @@ section#features div.bottom div.down div.feature_container div.content_box div.c
     gap: 20px;
 }
 section#features div.bottom div.down div.feature_container div.content_box div.content_box_left {
-    max-width: 218.66px;
-    max-height: 218.66px;
+    width: 218.66px;
+    height: 218.66px;
     overflow: hidden; 
 }
 section#features div.bottom div.down div.feature_container div.content_box div.content_box_left img {
@@ -322,7 +322,6 @@ section#features div.bottom div.down div.feature_container div.content_box div.c
 }
 section#features div.bottom div.down div.feature_container div.content_box div.content_box_left img:hover{
     transform: scale(1.08);
-    transform-origin: 50% 50%;
 }
 section#features div.bottom div.down div.feature_container div.content_box div.content_box_right {
     width: 405px;
@@ -387,11 +386,18 @@ section#find_store div.container {
 }
 section#find_store div.container div.left {
     width: 50%;
+    cursor: pointer;
+    overflow: hidden;
 
 }
 section#find_store div.container div.left img {
     display: inline-block;
     width: 100%;
+    transition: transform .3s;
+
+}
+section#find_store div.container div.left img:hover {
+    transform: scale(1.08);
 
 }
 section#find_store div.container div.right {
