@@ -11,6 +11,7 @@ header {
     margin-top: 10px;
     
     
+    
 }
 header div.container {
     width: 100%;
@@ -303,9 +304,11 @@ section#features div.bottom div.down div.feature_container div.content_box {
     column-gap: 40px;
     row-gap: 80px;
 }
-section#features div.bottom div.down div.feature_container div.content_box .content-box-container{
+section#features div.bottom div.down div.feature_container div.content_box div.content-box-container{
     align-items: center;
     cursor: pointer;
+    display: flex;
+    gap: 20px;
 }
 section#features div.bottom div.down div.feature_container div.content_box div.content_box_left {
     max-width: 218.66px;
@@ -321,8 +324,8 @@ section#features div.bottom div.down div.feature_container div.content_box div.c
     transform-origin: 50% 50%;
 }
 section#features div.bottom div.down div.feature_container div.content_box div.content_box_right {
-    max-width: 405px;
-    max-height: 128px;
+    width: 405px;
+    height: 128px;
 }
 section#features div.bottom div.down div.feature_container div.content_box div.content_box_right h5 {
     font-size: 14px;
@@ -364,6 +367,7 @@ section#features div.bottom div.down div.feature_container div.content_box div.c
 }
 
 .content-box-container {
-    display: flex;
-    gap: 20px;
+
 }
+
+/* feature end''''' */
