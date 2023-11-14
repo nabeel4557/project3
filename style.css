@@ -405,8 +405,6 @@ section#find_store div.container div.right {
     background: #fff;
     text-align: center;
     padding: 88px 0;
-
-
 }
 section#find_store div.container div.right h5 {
     font-size: 16px;
@@ -438,5 +436,127 @@ section#find_store div.container div.right a.button:hover {
     transition: all 0.8s;
 
 }
+
+/* find store end''' */
+
+section#join {
+
+}
+section#join div.container {
+    background: #000;
+    width: 100%;
+    display: flex;
+    padding: 60px 36px;
+
+}
+section#join div.container div.left {
+    width: 50%;
+    margin-bottom: 50px;
+}
+section#join div.container div.left img {
+    width: 100%;
+
+}
+section#join div.container div.right {
+    width: 50%;
+    background: #fff;
+    padding: 40px 125px;
+}
+section#join div.container div.right div.top {
+    width: 100%;
+
+}
+section#join div.container div.right div.top div.up {
+    
+}
+section#join div.container div.right div.top div.up h3 {
+    font-size: 14px;
+
+}
+section#join div.container div.right div.top div.up h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+
+}
+section#join div.container div.right div.top div.down {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    
+
+}
+section#join div.container div.right div.top div.down div.left_side {
+    width: 19px;
+    line-height: 35px;
+
+
+}
+section#join div.container div.right div.top div.down div.left_side img {
+    width: 100%;
+}
+section#join div.container div.right div.top div.down div.right_side {
+    margin-left: 15px;
+    margin-bottom: 50px;
+
+}
+section#join div.container div.right div.top div.down div.right_side p {
+    font-size: 18px;
+    line-height: 34px;
+
+
+}
+
+section#join div.container div.right div.middle {
+    width: 100%;
+}
+section#join div.container div.right div.middle div.first {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+}
+section#join div.container div.right div.middle div.first span {
+    display: block;
+    font-size: 14px;
+}
+section#join div.container div.right div.middle div.first input {
+    border: none;
+}
+
+section#join div.container div.right div.middle div.second {
+    width: 100%;
+    display: flex;
+    
+}
+section#join div.container div.right div.middle div.second div.left {
+    
+
+}
+section#join div.container div.right div.middle div.second div.left span {
+    font-size: 14px;
+}
+section#join div.container div.right div.middle div.second div.left input {}
+
+section#join div.container div.right div.middle div.second div.right {
+    
+}
+section#join div.container div.right div.middle div.second div.right span{
+    font-size: 14px;
+}
+section#join div.container div.right div.middle div.second div.right input {}
+
+section#join div.container div.right div.bottom {
+    width: 100%;
+}
+section#join div.container div.right div.bottom p {}
+section#join div.container div.right div.bottom p a {}
+section#join div.container div.right div.bottom a.button {}
+
+
+
+
+
+
+
+
 
 
