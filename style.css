@@ -243,6 +243,7 @@ section#sound div.container div.image_container img {
 }
 /* section# sound end''''' */
 
+
 section#features {
 
 }
@@ -371,3 +372,65 @@ section#features div.bottom div.down div.feature_container div.content_box div.c
 }
 
 /* feature end''''' */
+
+    
+section#find_store {
+    
+
+}
+section#find_store div.container {
+    width: 100%;
+    background-color: rgb(245, 244, 243);
+    display: flex;
+    padding: 60px 64px;
+    justify-content: space-between;
+}
+section#find_store div.container div.left {
+    width: 50%;
+
+}
+section#find_store div.container div.left img {
+    display: inline-block;
+    width: 100%;
+
+}
+section#find_store div.container div.right {
+    width: 50%;
+    background: #fff;
+    text-align: center;
+    padding: 88px 0;
+
+
+}
+section#find_store div.container div.right h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+section#find_store div.container div.right h3 {
+    font-size: 33px;
+    margin-bottom: 24px;
+
+}
+section#find_store div.container div.right p {
+    margin-bottom: 35px;
+
+
+}
+section#find_store div.container div.right a.button {
+    display: block;
+    border-radius: 24px;
+    border: 2px solid black;
+    padding: 10px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline;
+
+}
+section#find_store div.container div.right a.button:hover {
+    background-color: rgb(255, 195, 86);
+    border: none;
+    transition: all 0.8s;
+
+}
+
+
