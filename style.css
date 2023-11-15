@@ -400,6 +400,7 @@ section#find_store div.container div.left img:hover {
     transform: scale(1.08);
 
 }
+
 section#find_store div.container div.right {
     width: 50%;
     background: #fff;
@@ -617,7 +618,7 @@ footer div.footer-container div.item a i  {
     margin-left: 60px;
 }
 footer div.footer-container div.item ul {
-    display: none;
+    display: ;
 
 }
 footer div.footer-container div.item ul li {
