@@ -588,17 +588,20 @@ section#join div.container div.right div.bottom a.button:hover {
 /* section join end''' */
 footer {
     background: #000;
-    padding: 30px 36px;
+    padding-bottom: 60px;
 }
 footer div.footer-container{
     width: 100%;
     border-top: 1px solid #fff;
     display: flex;
     flex-wrap: wrap;
+    padding: 30px 75px;
+
 }
 footer div.footer-container div.item {
     width: 25%;
-    display: flex;
+    display: block;
+    align-items: center;
     margin-top: 40px;
 
 
@@ -608,13 +611,25 @@ footer div.footer-container div.item a {
 }
 footer div.footer-container div.item a h5 {
     color: white;
+    font-size: 16px;
 }
-footer div.footer-container div.item a img {
+footer div.footer-container div.item a i  {
+    margin-left: 60px;
+}
+footer div.footer-container div.item ul {
+    display: none;
 
+}
+footer div.footer-container div.item ul li {
+
+}
+footer div.footer-container div.item ul li a {
+    
 }
 footer p {
     color: #fff;
-    margin-top: 90px;
+    padding: 0px 75px;
+    margin-top: 120px;
 }
 
 
