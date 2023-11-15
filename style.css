@@ -585,6 +585,40 @@ section#join div.container div.right div.bottom a.button:hover {
 
 }
 
+/* section join end''' */
+footer {
+    background: #000;
+    padding: 30px 36px;
+}
+footer div.footer-container{
+    width: 100%;
+    border-top: 1px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer div.footer-container div.item {
+    width: 25%;
+    display: flex;
+    margin-top: 40px;
+
+
+}
+footer div.footer-container div.item a {
+
+}
+footer div.footer-container div.item a h5 {
+    color: white;
+}
+footer div.footer-container div.item a img {
+
+}
+footer p {
+    color: #fff;
+    margin-top: 90px;
+}
+
+
+
 
 
 
