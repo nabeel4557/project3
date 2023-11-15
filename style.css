@@ -451,10 +451,13 @@ section#join div.container {
 }
 section#join div.container div.left {
     width: 50%;
-    margin-bottom: 50px;
+    height: 822px;
+
 }
 section#join div.container div.left img {
+    display: inline-block;
     width: 100%;
+    height: 100%;
 
 }
 section#join div.container div.right {
@@ -470,7 +473,7 @@ section#join div.container div.right div.top div.up {
     
 }
 section#join div.container div.right div.top div.up h3 {
-    font-size: 14px;
+    font-size: 17px;
 
 }
 section#join div.container div.right div.top div.up h2 {
@@ -482,14 +485,10 @@ section#join div.container div.right div.top div.down {
     width: 100%;
     display: flex;
     /* align-items: center; */
-    
-
 }
 section#join div.container div.right div.top div.down div.left_side {
     width: 19px;
     line-height: 35px;
-
-
 }
 section#join div.container div.right div.top div.down div.left_side img {
     width: 100%;
@@ -497,13 +496,10 @@ section#join div.container div.right div.top div.down div.left_side img {
 section#join div.container div.right div.top div.down div.right_side {
     margin-left: 15px;
     margin-bottom: 50px;
-
 }
 section#join div.container div.right div.top div.down div.right_side p {
     font-size: 18px;
     line-height: 34px;
-
-
 }
 
 section#join div.container div.right div.middle {
@@ -527,29 +523,67 @@ section#join div.container div.right div.middle div.second {
     display: flex;
     
 }
-section#join div.container div.right div.middle div.second div.left {
-    
+section#join div.container div.right div.middle div.second div.left- {
+    width: 48%;
+    margin-right: 9px;
+    border-bottom: 1px solid #000;
 
 }
-section#join div.container div.right div.middle div.second div.left span {
+section#join div.container div.right div.middle div.second div.left- span {
     font-size: 14px;
 }
-section#join div.container div.right div.middle div.second div.left input {}
+section#join div.container div.right div.middle div.second div.left- input {
+    border: none;
+}
 
-section#join div.container div.right div.middle div.second div.right {
-    
+section#join div.container div.right div.middle div.second div.right- {
+    width: 49%;
+    border-bottom: 1px solid #000;
+
 }
-section#join div.container div.right div.middle div.second div.right span{
+section#join div.container div.right div.middle div.second div.right- span{
     font-size: 14px;
 }
-section#join div.container div.right div.middle div.second div.right input {}
+section#join div.container div.right div.middle div.second div.right- input {
+    border: none;
+}
 
 section#join div.container div.right div.bottom {
     width: 100%;
+    margin-top: 55px;
 }
-section#join div.container div.right div.bottom p {}
-section#join div.container div.right div.bottom p a {}
-section#join div.container div.right div.bottom a.button {}
+section#join div.container div.right div.bottom p.one {
+    font-size: 13px;
+}
+section#join div.container div.right div.bottom p.one a {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+section#join div.container div.right div.bottom p.two {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section#join div.container div.right div.bottom p.two a {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+section#join div.container div.right div.bottom a.button {
+    display: block;
+    border-radius: 24px;
+    background-color: rgb(255, 195, 86);
+    color: #000;
+    padding: 10px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline;
+}
+section#join div.container div.right div.bottom a.button:hover {
+    background: #F5F5F5;
+    transition: all 0.8s;
+
+}
 
 
 
