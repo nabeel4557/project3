@@ -675,6 +675,62 @@ section#speaker div.container div.item div.bottom p {
     font-size: 14px;
 
 }
+/* section speaker end''' */
+
+section#products {
+
+}
+section#products div.container {
+    width: 100%;
+    padding: 0px 36px;
+}
+section#products div.container div.top {
+    width: 100%;
+    padding: 48px 0px 8px;
+}
+section#products div.container div.top div.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section#products div.container div.top div.first span {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+section#products div.container div.top div.first p {
+    font-size: 17px;
+}
+
+section#products div.container div.top div.second {}
+section#products div.container div.top div.second p {
+    font-size: 15px;
+}
+section#products div.container div.top div.second p a {
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    font-size: 15px;
+    color: black;
+}
+section#products div.container div.bottom {
+    width: 100%;
+    display: flex;
+}
+section#products div.container div.bottom div.item {
+    width: 30%;
+}
+section#products div.container div.bottom div.item div.up {
+    width: 460px;
+    background:rgb(241, 241, 241); ;
+}
+section#products div.container div.bottom div.item div.up img {
+    width: 100%;
+    display: inline-block;
+}
+section#products div.container div.bottom div.item div.down {}
+section#products div.container div.bottom div.item div.down span.one {}
+section#products div.container div.bottom div.item div.down p {}
+section#products div.container div.bottom div.item div.down span.two {}
 
 
 
