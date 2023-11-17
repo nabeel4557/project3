@@ -6,6 +6,7 @@
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
+
 header {
     height:60px;
     margin-top: 10px;
@@ -607,21 +608,30 @@ footer div.footer-container div.item {
 
 
 }
-footer div.footer-container div.item a {
+footer div.footer-container div.item span {
 
 }
-footer div.footer-container div.item a h5 {
+footer div.footer-container div.item span h5 {
     color: white;
     font-size: 16px;
     margin-bottom: 20px;
 
 }
-footer div.footer-container div.item a i  {
+footer div.footer-container div.active span h5 {
+   
+}
+footer div.footer-container div.item span i  {
     margin-left: 60px;
 }
-footer div.footer-container div.item ul {
+footer div.footer-container div.active span i  {
+    transform: rotate(180deg);}
+footer div.footer-container div.item ul.hide {
+    display: none;
     
-
+}
+footer div.footer-container div.item ul.active {
+    display: block;
+    
 }
 footer div.footer-container div.item ul li {
     margin-bottom: 20px;
@@ -727,6 +737,10 @@ section#products div.container div.bottom div.item {
     padding-bottom: 45px;
 }
 section#products div.container div.bottom div.item div.up {
+    width: 460px;
+    background:rgb(241, 241, 241); ;
+}
+section#products div.container div.bottom div.item div.slick-slider {
     width: 460px;
     background:rgb(241, 241, 241); ;
 }

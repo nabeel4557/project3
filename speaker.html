@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script src="https://kit.fontawesome.com/269fea6890.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -15,7 +18,7 @@
         <div class="container">
             <div class="left">
                 <div class="image_container">
-                    <h1><a href=""><img src="images/logo.png" alt=></a></h1>
+                    <h1><a href="index.html"><img src="images/logo.png" alt=></a></h1>
                 </div>
                 <nav>
                     <ul>
@@ -104,6 +107,7 @@
                 <div class="item">
                     <div class="up">
                         <img src="images/home_speaker1.webp" alt="">
+                        <img src="images/Elegant_home_speaker_1.webp" alt="">
                     </div>
                     <div class="down">
                         <span class="one">BEOSOUND 2 FERRARI EDITION</span>
@@ -180,10 +184,10 @@
     </section>
     <footer>
         <div class="footer-container">
-            <div class="item">
-                <a href=""><h5>CUSTOMER CARE<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></a>
+            <div class="item" data-id="first">
+                <span ><h5>CUSTOMER CARE<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></span>
         
-                <ul>
+                <ul id="first" class="hide"  >
                     <li><a href="">Exclusive online services</a></li>
                     <li><a href="">FAQ</a></li>
                     <li><a href="">Service and Support</a></li>
@@ -191,9 +195,9 @@
                     <li><a href="">Find store</a></li>
                 </ul>
             </div>
-            <div class="item">
-                <a href=""><h5>OUR POLICIES<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></a>
-                <ul>
+            <div class="item" data-id="second">
+                <span><h5>OUR POLICIES<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></span>
+                <ul id="second" class="hide" >
                     <li><a href="">Accessibility</a></li>
                     <li><a href="">Counterfeit</a></li>
                     <li><a href="">Cookie Settings</a></li>
@@ -202,9 +206,9 @@
                     <li><a href="">Policies and terms</a></li>
                 </ul>
             </div>
-            <div class="item">
-                <a href=""><h5>OUR COMPANY<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></a>
-                <ul>
+            <div class="item" data-id="third">
+                <span><h5>OUR COMPANY<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></span>
+                <ul class="hide" id="third" >
                     <li><a href="">Corporate</a></li>
                     <li><a href="">Press</a></li>
                     <li><a href="">Sustainability</a></li>
@@ -216,12 +220,12 @@
                     <li><a href="">Contact us</a></li>
                 </ul>
             </div>
-            <div class="item">
-                <a href=""><h5>internatinonal English<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></a>
+            <div class="item ">
+                <span><h5>internatinonal English<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></span>
             </div>
-            <div class="item">
-                <a href=""><h5>SOCIAL LINKS<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></a>
-                <ul>
+            <div class="item " data-id="fourth">
+                <span><h5>SOCIAL LINKS<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></span>
+                <ul class="hide" id="fourth">
                     <li><a href="">Facebook</a></li>
                     <li><a href="">Instagram</a></li>
                     <li><a href="">Twitter</a></li>
@@ -229,9 +233,9 @@
                     <li><a href="">Pinterest</a></li>
                 </ul>
             </div>
-            <div class="item">
-                <a href=""><h5>DOWNLOAD OUR APPS<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></a>
-                <ul>
+            <div class="item " data-id="fifth">
+                <span><h5>DOWNLOAD OUR APPS<i class="fa-solid fa-angle-down" style="color: white;"></i></h5></span>
+                <ul class="hide" id="fifth">
                     <li><a href="">Discover Bang & Olufsen apps</a></li>
                     <li><a href="">The House of Bang & Olufsen</a></li>
                     <li><a href="">Bang & Olufsen Collective</a></li>
@@ -240,6 +244,11 @@
         </div>
         <p>© Bang & Olufsen 2023</p>
        </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+				
     <script src="index.js"></script>
 </body>
 </html>
