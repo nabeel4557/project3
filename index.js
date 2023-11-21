@@ -55,12 +55,24 @@ head.forEach(function (items){
 
 
 
+// $(document).ready(function(){
+//     $('div.up').slick({
+//         dots: true,
+//         infinite: true,
+//         speed: 300,
+//         slidesToShow: 1,
+//         adaptiveHeight: true
+
+//       });
+//     })
+
+
 
 
 /////////////////////////////////
 // SLIDER 
 /////////////////////////////////
-const slideIndex = {};
+const slideIndex = {};  
 
 function initializeSlides(containerId) {
     slideIndex[containerId] = 1;
@@ -100,3 +112,26 @@ function showSlides(n, containerId) {
 initializeSlides("slider1");
 initializeSlides("slider2");
 initializeSlides("slider3");
+
+
+
+let readmore = document.querySelector(".read-more");
+let contentpara = document.querySelector(".two")
+
+readmore.addEventListener('click',function(e){
+    e.preventDefault();
+    contentpara.classList.remove('hidden');
+    readmore.classList.add('hide');
+})
+
+// cart'''
+
+var cartIconLink = document.getElementById('cartIconLink');
+
+// Add a click event listener to the cart icon link
+cartIconLink.addEventListener('click', function() {
+    // Perform actions when the cart icon link is clicked
+    alert('Cart icon clicked! You can add your custom actions here.');
+    // For example, you can redirect to the cart page:
+    // window.location.href = 'cart.html';
+});

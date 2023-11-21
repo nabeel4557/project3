@@ -715,15 +715,24 @@ section#products div.container div.top div.first p {
     font-size: 17px;
 }
 
-section#products div.container div.top div.second {}
-section#products div.container div.top div.second p {
+section#products div.container div.top div.second a.hide{
+   opacity: 0;
+}
+section#products div.container div.top div.second p.one {
     font-size: 15px;
 }
-section#products div.container div.top div.second p a {
+section#products div.container div.top div.second p.one a {
     display: inline-block;
     border-bottom: 2px solid #000;
     font-size: 15px;
     color: black;
+}
+section#products div.container div.top div.second p.two {
+    /* display: none; */
+    width: 65%;
+}
+section#products div.container div.top div.second .hidden {
+    display: none;
 }
 section#products div.container div.bottom {
     margin-top: 75px;
@@ -840,7 +849,7 @@ section#sign_up div.container div.bottom a.button:hover {
     user-select: none;
 }
 .next {
-    right: 0;
+    right: -24px;
     border-radius: 3px 0 0 3px;
 }
 .prev:hover, .next:hover {
